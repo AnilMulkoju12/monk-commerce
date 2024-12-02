@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f6f6f8;
+}
+:root{
+  font-family: inter;
+  --primary-color:#939393
+}
+.container{
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+@media(max-width:1536px){
+  .container{
+    max-width: 1280px;
+  }
+}
+@media(max-width:1280px){
+  .container{
+    max-width: 1024px;
+  }
+}
+@media(max-width:1024px){
+  .container{
+    max-width: 768px;
+  }
+}
+@media(max-width:768px){
+  .container{
+    max-width: 640px;
+  }
+}
+@media(max-width:640px){
+  .container{
+    max-width: 475px;
+  }
+}
+@media(max-width:475px){
+  .container{
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0 1rem;
+  }
+}
